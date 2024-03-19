@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --index: calc(1vw + 1vh);
+    --color: #fff;
+}
+header{
+    background: #4F3129;
+        padding: 10px 130px;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: calc(var(--index) * 25);
+    max-width: calc(var(--index) * 30);
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family:"Raleway", sans-serif;
+    font-weight: 400;
+    font-size: calc(var(--index) * 0.65);
+}
+
+main{
+    background-image: url(img/bg.svg);
+    background-size: cover;
+    height: 820px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input{
+    font-family:"Raleway", sans-serif;
+    width: 163px;
+    height: 24px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+    opacity: 50%;
+    padding: 4px 12px;
+}
+.search button{
+    background: transparent;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    opacity: 50%;
+}
+.main-txt{
+    text-align: center;
+}
+.main-txt h1{
+    font-family:"Raleway", sans-serif;
+    color: white;
+    font-size: calc(var(--index) * 2.4);
+}
+.main-txt h3{
+    padding-top: 20px;
+    color: #fff;
+    font-family:"Raleway", sans-serif;
+    font-weight: 400;
+    font-size: calc(var(--index) * 0.7)
+}
+.main-btn{
+    margin-top: 74px;
+}
+.main-btn button{
+    width: calc(var(--index) * 9);
+    height: calc(var(--index) * 2.5);
+    background: #73061D;
+    color: #fff;
+    border: none;
+    font-family:"Raleway", sans-serif;
+    font-size: calc(var(--index) * 0.65);
+    font-weight: 500;
+}
+section{
+    padding: 45px 130px;
+}
+section h1{
+    font-family: 'ZarubkaType', arial;
+    font-size: calc(var(--index) * 2.4);
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+.main-arc img{
+    width: calc(var(--index) * 26);
+}
+.main-arc{
+    display: flex;
+    margin-bottom: 77px;
+}
+.main-arc h1{
+    font-family:"Raleway", sans-serif;
+    font-size: calc(var(--index) * 1.5);
+    font-weight: 500;
+}
+.main-arc p{
+    font-family:"Raleway", sans-serif;
+    font-size: calc(var(--index) * 0.7);
+    font-weight: 400;
+}
+.arc-txt{
+    margin-left: 140px;
+}
+.arc-txt img{
+    width: 35px;
+    margin-left: 10px;
+}
